@@ -6,6 +6,8 @@ import android.os.SystemClock;
 import android.os.Bundle;
 import android.widget.Chronometer;
 
+import ides.link.androidlifecycles.models.ChronometerViewModel;
+
 public class MainActivity extends LifecycleActivity {
 
     @Override

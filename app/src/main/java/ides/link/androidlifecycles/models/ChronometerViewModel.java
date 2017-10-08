@@ -1,4 +1,4 @@
-package ides.link.androidlifecycles;
+package ides.link.androidlifecycles.models;
 
 import android.arch.lifecycle.ViewModel;
 import android.support.annotation.Nullable;
