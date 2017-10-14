@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidLifecycles.iml" filepath="$PROJECT_DIR$/AndroidLifecycles.iml" />
       <module fileurl="file://$PROJECT_DIR$/android_lifecycles/android_lifecycles.iml" filepath="$PROJECT_DIR$/android_lifecycles/android_lifecycles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_persistence/android_persistence.iml" filepath="$PROJECT_DIR$/android_persistence/android_persistence.iml" />
     </modules>
   </component>
 </project>

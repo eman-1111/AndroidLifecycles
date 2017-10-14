@@ -1,1 +1,1 @@
-include ':android_lifecycles'
+include ':android_lifecycles', ':android_persistence'

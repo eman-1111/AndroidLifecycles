@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/android_lifecycles" />
+            <option value="$PROJECT_DIR$/android_persistence" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
