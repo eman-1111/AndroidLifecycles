@@ -41,7 +41,7 @@ public class UsersActivity extends LifecycleActivity{
     private void fetchData() {
         // Note: this kind of logic should not be in an activity.
         StringBuilder sb = new StringBuilder();
-        List<User> youngUsers = mDb.userModel().findYoungerThan(35);
+        List<User> youngUsers = mDb.userModel().findYoungerThanSolution(35);
         for (User youngUser : youngUsers) {
             sb.append(String.format(Locale.US,
                     "%s, %s (%d)\n", youngUser.lastName, youngUser.name, youngUser.age));
