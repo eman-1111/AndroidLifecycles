@@ -25,7 +25,7 @@ public class BooksBorrowedByUserActivity extends LifecycleActivity {
     private TypeConvertersViewModel mViewModel;
     //we create a new @Query in the BookDao class to list the books borrowed by a user within the last day.
     //using @TypeConverter annotation. You can use type converters to define conversions between
-    // data types in your plain old Java object (POJO), and column types in a SQLite database. 
+    // data types in your plain old Java object (POJO), and column types in a SQLite database.
 
     @SuppressWarnings("unused")
     private TextView mBooksTextView;

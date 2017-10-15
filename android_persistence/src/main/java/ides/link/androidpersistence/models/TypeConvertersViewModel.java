@@ -32,7 +32,7 @@ public class TypeConvertersViewModel extends AndroidViewModel {
         // Populate it with initial data
         DatabaseInitializer.populateAsync(mDb);
 
-        // Receive changes
+        // to Receive changes
         subscribeToDbChanges();
     }
     //what we observe
