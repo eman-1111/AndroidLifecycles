@@ -12,6 +12,7 @@ import java.util.List;
 
 import ides.link.androidpersistence.db.Book;
 import ides.link.androidpersistence.models.BooksBorrowedByUserViewModel;
+import ides.link.androidpersistence.models.TypeConvertersViewModel;
 
 /**
  * Created by Eman on 10/14/2017.
@@ -19,8 +20,12 @@ import ides.link.androidpersistence.models.BooksBorrowedByUserViewModel;
 
 public class BooksBorrowedByUserActivity extends LifecycleActivity {
 
-    private BooksBorrowedByUserViewModel mViewModel;
+    //private BooksBorrowedByUserViewModel mViewModel;
 
+    private TypeConvertersViewModel mViewModel;
+    //we create a new @Query in the BookDao class to list the books borrowed by a user within the last day.
+    //using @TypeConverter annotation. You can use type converters to define conversions between
+    // data types in your plain old Java object (POJO), and column types in a SQLite database. 
 
     @SuppressWarnings("unused")
     private TextView mBooksTextView;
@@ -32,7 +37,7 @@ public class BooksBorrowedByUserActivity extends LifecycleActivity {
         mBooksTextView = (TextView) findViewById(R.id.books_tv);
 
         // Get a reference to the ViewModel for this screen.
-        mViewModel = ViewModelProviders.of(this).get(BooksBorrowedByUserViewModel.class);
+        mViewModel = ViewModelProviders.of(this).get(TypeConvertersViewModel.class);
 
         // Update the UI whenever there's a change in the ViewModel's data.
         subscribeUiBooks();
@@ -41,7 +46,7 @@ public class BooksBorrowedByUserActivity extends LifecycleActivity {
     }
 
     private void subscribeUiBooks() {
-        mViewModel.books.observe(this, new Observer<List<Book>>() {
+        mViewModel.getBooks().observe(this, new Observer<List<Book>>() {
             @Override
             public void onChanged(@Nullable List<Book> books) {
                 showBooksInUi(books, mBooksTextView);

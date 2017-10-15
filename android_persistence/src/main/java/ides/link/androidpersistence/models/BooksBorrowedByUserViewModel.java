@@ -19,6 +19,7 @@ import ides.link.androidpersistence.db.utils.DatabaseInitializer;
 
 public class BooksBorrowedByUserViewModel extends AndroidViewModel  {
 
+    //what we observe so we make it public, or we can make it private and make getter to observe
     public final LiveData<List<Book>> books;
     private AppDatabase mDb;
     public BooksBorrowedByUserViewModel(Application application){
