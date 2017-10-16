@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/android_lifecycles" />
             <option value="$PROJECT_DIR$/android_persistence" />
+            <option value="$PROJECT_DIR$/android_testing" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
