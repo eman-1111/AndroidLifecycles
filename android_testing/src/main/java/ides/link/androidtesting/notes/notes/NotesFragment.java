@@ -67,6 +67,8 @@ public class NotesFragment extends Fragment implements NotesContract.View {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mListAdapter = new NotesAdapter(new ArrayList<Note>(0), mItemListener);
+
+        //get instance of the presenter and pass NotesRepository using Injection class instance
         mActionsListener = new NotesPresenter(Injection.provideNotesRepository(), this);
     }
 
@@ -182,6 +184,9 @@ public class NotesFragment extends Fragment implements NotesContract.View {
     }
 
 
+
+
+    //adapter class
     private static class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.ViewHolder> {
 
         private List<Note> mNotes;

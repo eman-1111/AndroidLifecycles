@@ -47,6 +47,7 @@ public class NotesPresenterTest {
 
     private static List<Note> EMPTY_NOTES = new ArrayList<>(0);
 
+    // we use Mockito  to Mock the object we need "mNotesRepository" "mNotesView"
     @Mock
     private NotesRepository mNotesRepository;
 
@@ -72,30 +73,37 @@ public class NotesPresenterTest {
         mNotesPresenter = new NotesPresenter(mNotesRepository, mNotesView);
     }
 
+    //We have defined an ArgumentCaptor that captures parameters -
+    // we are using it to capture the callback for the NotesRepository when data is loaded by the
+    // presenter, so we can call it ourselves to simulate that the notes have been loaded already.
     @Test
     public void loadNotesFromRepositoryAndLoadIntoView() {
-        fail("Implement in step 6");
-//        // Given an initialized NotesPresenter with initialized notes
-//        // When loading of Notes is requested
-//        mNotesPresenter.loadNotes(true);
-//
-//        // Callback is captured and invoked with stubbed notes
-//        verify(mNotesRepository).getNotes(mLoadNotesCallbackCaptor.capture());
-//        mLoadNotesCallbackCaptor.getValue().onNotesLoaded(NOTES);
-//
-//        // Then progress indicator is hidden and notes are shown in UI
-//        verify(mNotesView).setProgressIndicator(false);
-//        verify(mNotesView).showNotes(NOTES);
+
+        // Given an initialized NotesPresenter with initialized notes
+        // When loading of Notes is requested
+        mNotesPresenter.loadNotes(true);
+
+        // we need to fake the callback on the listener ourselves.The callback would have been
+        // set up by the presenter
+        // Callback is captured and invoked with stubbed notes
+        verify(mNotesRepository).getNotes(mLoadNotesCallbackCaptor.capture());
+        mLoadNotesCallbackCaptor.getValue().onNotesLoaded(NOTES);
+
+
+        // we verify that the presenter has asked the view to hide the progress indicator
+        // and display the list of notes
+        // Then progress indicator is hidden and notes are shown in UI
+        verify(mNotesView).setProgressIndicator(false);
+        verify(mNotesView).showNotes(NOTES);
     }
 
     @Test
     public void clickOnFab_ShowsAddsNoteUi() {
-        fail("Implement in step 6");
-//        // When adding a new note
-//        mNotesPresenter.addNewNote();
-//
-//        // Then add note UI is shown
-//        verify(mNotesView).showAddNote();
+        // When adding a new note
+        mNotesPresenter.addNewNote();
+
+        // Then add note UI is shown
+        verify(mNotesView).showAddNote();
     }
 
     @Test
