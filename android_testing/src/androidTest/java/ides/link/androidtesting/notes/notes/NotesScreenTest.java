@@ -105,6 +105,11 @@ public class NotesScreenTest {
         onView(withId(R.id.add_note_title)).check(matches(isDisplayed()));
     }
 
+    //Espresso-contrib is an extension to the Espresso framework that contains a few additional,
+    // useful features that will help you write great tests with Espresso. Part of this component
+    // is support for RecyclerView that enables you to write ViewMatchers for items or perform
+    // specific RecyclerViewActions (such as scrolling to a specific item). It also
+    // contains explicit support for the navigation drawer through DrawerActions and DrawerMatchers.
     @Test
     public void addNoteToNotesList() throws Exception {
 
