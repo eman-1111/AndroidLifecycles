@@ -95,7 +95,7 @@ public class NoteDetailScreenTest {
         startIntent.putExtra(NoteDetailActivity.EXTRA_NOTE_ID, NOTE.getId());
         mNoteDetailActivityTestRule.launchActivity(startIntent);
 
-       // registerIdlingResource();
+        registerIdlingResource();
     }
 
     @Test
