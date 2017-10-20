@@ -97,38 +97,38 @@ public class NotesScreenTest {
 
     @Test
     public void clickAddNoteButton_opensAddNoteUi() throws Exception {
-        fail("Implement step 7");
-//        // Click on the add note button
-//        onView(withId(R.id.fab_add_notes)).perform(click());
-//
-//        // Check if the add note screen is displayed
-//        onView(withId(R.id.add_note_title)).check(matches(isDisplayed()));
+
+        // Click on the add note button
+        onView(withId(R.id.fab_add_notes)).perform(click());
+
+        // Check if the add note screen is displayed
+        onView(withId(R.id.add_note_title)).check(matches(isDisplayed()));
     }
 
     @Test
     public void addNoteToNotesList() throws Exception {
-        fail("Implement step 7");
-//        String newNoteTitle = "Espresso";
-//        String newNoteDescription = "UI testing for Android";
-//
-//        // Click on the add note button
-//        onView(withId(R.id.fab_add_notes)).perform(click());
-//
-//        // Add note title and description
-//        // Type new note title
-//        onView(withId(R.id.add_note_title)).perform(typeText(newNoteTitle), closeSoftKeyboard());
-//        onView(withId(R.id.add_note_description)).perform(typeText(newNoteDescription),
-//                closeSoftKeyboard()); // Type new note description and close the keyboard
-//
-//        // Save the note
-//        onView(withId(R.id.fab_add_notes)).perform(click());
-//
-//        // Scroll notes list to added note, by finding its description
-//        onView(withId(R.id.notes_list)).perform(
-//                scrollTo(hasDescendant(withText(newNoteDescription))));
-//
-//        // Verify note is displayed on screen
-//        onView(withItemText(newNoteDescription)).check(matches(isDisplayed()));
+
+        String newNoteTitle = "Espresso";
+        String newNoteDescription = "UI testing for Android";
+
+        // Click on the add note button
+        onView(withId(R.id.fab_add_notes)).perform(click());
+
+        // Add note title and description
+        // Type new note title
+        onView(withId(R.id.add_note_title)).perform(typeText(newNoteTitle), closeSoftKeyboard());
+        onView(withId(R.id.add_note_description)).perform(typeText(newNoteDescription),
+                closeSoftKeyboard()); // Type new note description and close the keyboard
+
+        // Save the note
+        onView(withId(R.id.fab_add_notes)).perform(click());
+
+        // Scroll notes list to added note, by finding its description
+        onView(withId(R.id.notes_list)).perform(
+                scrollTo(hasDescendant(withText(newNoteDescription))));
+
+        // Verify note is displayed on screen
+        onView(withItemText(newNoteDescription)).check(matches(isDisplayed()));
     }
 
 }

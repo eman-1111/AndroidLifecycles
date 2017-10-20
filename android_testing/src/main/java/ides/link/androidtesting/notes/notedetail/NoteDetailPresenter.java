@@ -55,7 +55,7 @@ public class NoteDetailPresenter implements NoteDetailContract.UserActionsListen
                 if (null == note) {
                     mNotesDetailView.showMissingNote();
                 } else {
-                  //  showNote(note);
+                    showNote(note);
                 }
             }
         });
