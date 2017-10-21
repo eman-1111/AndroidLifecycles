@@ -48,6 +48,11 @@ public class NotesPresenter implements NotesContract.UserActionsListener {
         if (forceUpdate) {
             mNotesRepository.refreshData();
         }
+        //Espresso has ability to synchronize all test actions. Espresso waits until the UI is idle
+        // before it moves to the next operation.
+
+        // However, sometimes it is not possible to rely on automatic synchronisation,
+        // for instance when your app does background operations via non-standard means
 
         // The network request might be handled in a different thread so make sure Espresso knows
         // that the app is busy until the response is handled.
