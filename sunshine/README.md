@@ -14,5 +14,5 @@ In this codelab you'll use the different components to make a weather app called
 
 There will be two activities (MainActivity and DetailActivity) with their own ViewModels (MainActivityViewModel and DetailActivityViewModel) and associated LiveData. They will use a repository class (SunshineRepository), which will manage communications between a SQLite database and a network data source. The WeatherNetworkDataSource requests weather data from a mock weather server using two services (SunshineSyncIntentService and SunshineFirebaseJobService). The mock weather server returns randomized JSON data.
 
-![alt text](sunshine/src/main/res/drawable/architecture.png?raw=true "Sunshine Architecture")
+![Sunshine Architecture](https://codelabs.developers.google.com/codelabs/build-app-with-arch-components/img/a1289de09bf73c94.png)
 
