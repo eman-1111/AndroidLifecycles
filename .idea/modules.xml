@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/android_lifecycles/android_lifecycles.iml" filepath="$PROJECT_DIR$/android_lifecycles/android_lifecycles.iml" />
       <module fileurl="file://$PROJECT_DIR$/android_persistence/android_persistence.iml" filepath="$PROJECT_DIR$/android_persistence/android_persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/android_testing/android_testing.iml" filepath="$PROJECT_DIR$/android_testing/android_testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunshine/sunshine.iml" filepath="$PROJECT_DIR$/sunshine/sunshine.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,153 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:17:1-70:12
+	package
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:19:5-43
+		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:18:5-63
+	android:versionCode
+		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:22:5-66
+	android:name
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:22:22-64
+application
+ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:24:5-69:19
+MERGED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.android\build-cache\6d1fed28d5e13d42e3ab9435f8ec8439f4bb396d\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Eman\.android\build-cache\c745b25754f0f0a6830ac51c95416f768ea73b20\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Eman\.android\build-cache\b914c77dc89075dde6c9ef596f3b3882d5ca75bf\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Eman\.android\build-cache\8c756a6c6c003713de1777af1c1eeca96b513a22\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Eman\.android\build-cache\e22a189b72b7debe21f9ce9513899e5b064f9ca4\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta1] C:\Users\Eman\.android\build-cache\7473c816d52ce6b72a3961a6bc4216027b7ad01d\output\AndroidManifest.xml:9:5-20
+MERGED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:26:5-40:19
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Eman\.android\build-cache\95adf5c768d499fbbc99015810359e82e544bac1\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Eman\.android\build-cache\c2583e43db8a433f868eb8d42c19a0bbf7a7d687\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Eman\.android\build-cache\7b8cdd47bedc5d4399aeacb65f1aa8d292d1195f\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Eman\.android\build-cache\449eb6f42ba6afe5a8b921ed7ade18ba3e5fbca8\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Eman\.android\build-cache\acb9def087eff05130d88700f7810c1be15ac9d9\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Eman\.android\build-cache\0747e546477e63834696b2c5220a7a67ac64bfa3\output\AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:27:9-41
+	android:supportsRtl
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:28:9-35
+	android:allowBackup
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:25:9-35
+	android:icon
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:26:9-43
+	android:theme
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:29:9-40
+activity#com.example.android.sunshine.ui.list.MainActivity
+ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:32:9-37:20
+	android:label
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:34:13-45
+	android:launchMode
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:35:13-43
+	android:theme
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:36:13-53
+	android:name
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:33:13-49
+activity#com.example.android.sunshine.ui.detail.DetailActivity
+ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:40:9-52:20
+	android:label
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:42:13-58
+	android:parentActivityName
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:43:13-63
+	android:theme
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:44:13-44
+	android:name
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:41:13-53
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:45:13-47:56
+	android:value
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:47:17-54
+	android:name
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:46:17-63
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:48:13-51:29
+action#android.intent.action.MAIN
+ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:49:17-68
+	android:name
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:49:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:50:17-76
+	android:name
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:50:27-74
+service#com.example.android.sunshine.data.network.SunshineSyncIntentService
+ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:56:9-58:40
+	android:exported
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:57:13-67
+service#com.example.android.sunshine.data.network.SunshineFirebaseJobService
+ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:61:9-67:19
+	android:exported
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:62:13-68
+intent-filter#com.firebase.jobdispatcher.ACTION_EXECUTE
+ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:64:13-66:29
+action#com.firebase.jobdispatcher.ACTION_EXECUTE
+ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:65:17-83
+	android:name
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:65:25-81
+uses-sdk
+INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.android\build-cache\6d1fed28d5e13d42e3ab9435f8ec8439f4bb396d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Eman\.android\build-cache\c745b25754f0f0a6830ac51c95416f768ea73b20\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Eman\.android\build-cache\b914c77dc89075dde6c9ef596f3b3882d5ca75bf\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Eman\.android\build-cache\8c756a6c6c003713de1777af1c1eeca96b513a22\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Eman\.android\build-cache\e22a189b72b7debe21f9ce9513899e5b064f9ca4\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta1] C:\Users\Eman\.android\build-cache\7473c816d52ce6b72a3961a6bc4216027b7ad01d\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\Eman\.android\build-cache\fecf81ebb49438288b656b880a954480c001bdbe\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.3.1] C:\Users\Eman\.android\build-cache\a1cfef4900bce2707ee224d835d37827f9ca2f8b\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Eman\.android\build-cache\95adf5c768d499fbbc99015810359e82e544bac1\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Eman\.android\build-cache\c2583e43db8a433f868eb8d42c19a0bbf7a7d687\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Eman\.android\build-cache\7b8cdd47bedc5d4399aeacb65f1aa8d292d1195f\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Eman\.android\build-cache\449eb6f42ba6afe5a8b921ed7ade18ba3e5fbca8\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Eman\.android\build-cache\acb9def087eff05130d88700f7810c1be15ac9d9\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Eman\.android\build-cache\0747e546477e63834696b2c5220a7a67ac64bfa3\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Eman\.android\build-cache\c745b25754f0f0a6830ac51c95416f768ea73b20\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.android\build-cache\6d1fed28d5e13d42e3ab9435f8ec8439f4bb396d\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Eman\.android\build-cache\c745b25754f0f0a6830ac51c95416f768ea73b20\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Eman\.android\build-cache\b914c77dc89075dde6c9ef596f3b3882d5ca75bf\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Eman\.android\build-cache\8c756a6c6c003713de1777af1c1eeca96b513a22\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Eman\.android\build-cache\e22a189b72b7debe21f9ce9513899e5b064f9ca4\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Eman\.android\build-cache\95adf5c768d499fbbc99015810359e82e544bac1\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Eman\.android\build-cache\c2583e43db8a433f868eb8d42c19a0bbf7a7d687\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Eman\.android\build-cache\7b8cdd47bedc5d4399aeacb65f1aa8d292d1195f\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Eman\.android\build-cache\449eb6f42ba6afe5a8b921ed7ade18ba3e5fbca8\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Eman\.android\build-cache\acb9def087eff05130d88700f7810c1be15ac9d9\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Eman\.android\build-cache\0747e546477e63834696b2c5220a7a67ac64bfa3\output\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.android\build-cache\6d1fed28d5e13d42e3ab9435f8ec8439f4bb396d\output\AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.android\build-cache\6d1fed28d5e13d42e3ab9435f8ec8439f4bb396d\output\AndroidManifest.xml:24:13-51
+service#com.firebase.jobdispatcher.GooglePlayReceiver
+ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:32:9-39:19
+	android:exported
+		ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:35:13-93
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:33:13-73
+intent-filter#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:36:13-38:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:37:17-87
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:37:25-84

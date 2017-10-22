@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\art_clear.png",
+        "source": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\art_clear.png"
+    },
+    {
+        "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\art_clouds.png",
+        "source": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\art_clouds.png"
+    },
+    {
+        "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\art_light_clouds.png",
+        "source": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\art_light_clouds.png"
+    },
+    {
+        "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\art_rain.png",
+        "source": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\art_rain.png"
+    },
+    {
+        "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\art_snow.png",
+        "source": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\art_snow.png"
+    },
+    {
+        "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\art_storm.png",
+        "source": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\art_storm.png"
+    },
+    {
+        "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\art_fog.png",
+        "source": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\art_fog.png"
+    },
+    {
+        "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\art_light_rain.png",
+        "source": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\art_light_rain.png"
+    }
+]
