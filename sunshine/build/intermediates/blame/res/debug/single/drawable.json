@@ -104,6 +104,10 @@
         "source": "C:\\Users\\Eman\\.android\\build-cache\\c745b25754f0f0a6830ac51c95416f768ea73b20\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
+        "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\drawable\\architecture.png",
+        "source": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\src\\main\\res\\drawable\\architecture.png"
+    },
+    {
         "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
         "source": "C:\\Users\\Eman\\.android\\build-cache\\c745b25754f0f0a6830ac51c95416f768ea73b20\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
