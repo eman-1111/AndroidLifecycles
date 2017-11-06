@@ -16,12 +16,12 @@
         "source": "C:\\Users\\Eman\\.android\\build-cache\\c745b25754f0f0a6830ac51c95416f768ea73b20\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\Eman\\.android\\build-cache\\0747e546477e63834696b2c5220a7a67ac64bfa3\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\layout\\preference_widget_switch_compat.xml",
         "source": "C:\\Users\\Eman\\.android\\build-cache\\6d1fed28d5e13d42e3ab9435f8ec8439f4bb396d\\output\\res\\layout\\preference_widget_switch_compat.xml"
+    },
+    {
+        "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Eman\\.android\\build-cache\\0747e546477e63834696b2c5220a7a67ac64bfa3\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
@@ -48,12 +48,12 @@
         "source": "C:\\Users\\Eman\\.android\\build-cache\\c745b25754f0f0a6830ac51c95416f768ea73b20\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\Eman\\.android\\build-cache\\c745b25754f0f0a6830ac51c95416f768ea73b20\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
         "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Users\\Eman\\.android\\build-cache\\c745b25754f0f0a6830ac51c95416f768ea73b20\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Eman\\.android\\build-cache\\c745b25754f0f0a6830ac51c95416f768ea73b20\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",

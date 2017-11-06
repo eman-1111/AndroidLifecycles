@@ -26,6 +26,7 @@ MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Eman\.
 MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Eman\.android\build-cache\e22a189b72b7debe21f9ce9513899e5b064f9ca4\output\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta1] C:\Users\Eman\.android\build-cache\7473c816d52ce6b72a3961a6bc4216027b7ad01d\output\AndroidManifest.xml:9:5-20
 MERGED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:26:5-40:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\3a8c625fab4c1035d5bd7d664421c6740957925d\output\AndroidManifest.xml:26:5-32:19
 MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Eman\.android\build-cache\95adf5c768d499fbbc99015810359e82e544bac1\output\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Eman\.android\build-cache\c2583e43db8a433f868eb8d42c19a0bbf7a7d687\output\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Eman\.android\build-cache\7b8cdd47bedc5d4399aeacb65f1aa8d292d1195f\output\AndroidManifest.xml:25:5-29:19
@@ -109,6 +110,9 @@ MERGED from [android.arch.persistence.room:runtime:1.0.0-alpha8] C:\Users\Eman\.
 MERGED from [android.arch.persistence.room:support-db-impl:1.0.0-alpha8] C:\Users\Eman\.android\build-cache\a64717ad1bffd2242d582dd43b65a6e6ad737fd6\output\AndroidManifest.xml:22:5-24:41
 MERGED from [android.arch.persistence.room:support-db:1.0.0-alpha8] C:\Users\Eman\.android\build-cache\91622cdde7bb81d7465d62b17032f9f9eb64876a\output\AndroidManifest.xml:22:5-24:41
 MERGED from [android.arch.core:runtime:1.0.0-alpha8] C:\Users\Eman\.android\build-cache\ceae8c3eef72fb15616f6372000509058a973714\output\AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.lifecycle:extensions:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\bc3131692158a7bb536cd330cd6f6a680cd97159\output\AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\3a8c625fab4c1035d5bd7d664421c6740957925d\output\AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.core:core:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\26dc6bdce00e3a78e48503bbca139041829ef57a\output\AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\Eman\.android\build-cache\fecf81ebb49438288b656b880a954480c001bdbe\output\AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.databinding:library:1.3.1] C:\Users\Eman\.android\build-cache\a1cfef4900bce2707ee224d835d37827f9ca2f8b\output\AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Eman\.android\build-cache\95adf5c768d499fbbc99015810359e82e544bac1\output\AndroidManifest.xml:21:5-23:54
@@ -155,3 +159,13 @@ action#com.google.android.gms.gcm.ACTION_TASK_READY
 ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:37:17-87
 	android:name
 		ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:37:25-84
+provider#android.arch.lifecycle.LifecycleRuntimeTrojanProvider
+ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\3a8c625fab4c1035d5bd7d664421c6740957925d\output\AndroidManifest.xml:27:9-31:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\3a8c625fab4c1035d5bd7d664421c6740957925d\output\AndroidManifest.xml:29:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\3a8c625fab4c1035d5bd7d664421c6740957925d\output\AndroidManifest.xml:31:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\3a8c625fab4c1035d5bd7d664421c6740957925d\output\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\3a8c625fab4c1035d5bd7d664421c6740957925d\output\AndroidManifest.xml:28:13-81
