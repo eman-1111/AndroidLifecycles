@@ -26,6 +26,8 @@ import com.example.android.sunshine.data.network.WeatherNetworkDataSource;
 import com.example.android.sunshine.utilities.SunshineDateUtils;
 
 import java.util.Date;
+import java.util.List;
+
 /**
  * Handles data operations in Sunshine. Acts as a mediator between {@link WeatherNetworkDataSource}
  * and {@link WeatherDao}
@@ -93,7 +95,7 @@ public class SunshineRepository {
             }
         });
 
-       // When initalizeData is called, it starts off a chain of events which spawns a
+        // When initalizeData is called, it starts off a chain of events which spawns a
         // SunshineSyncIntentService which starts a sync and saves the resulting data to
         // mDownloadedWeatherForecasts. The last step is to have the SunshineRepository observe
         // mDownloadedWeatherForecasts and update the database.
@@ -108,6 +110,7 @@ public class SunshineRepository {
         initializeData();
         return mWeatherDao.getWeatherByDate(date);
     }
+
     /**
      * Deletes old weather data because we don't need to keep multiple days' data
      */
@@ -135,4 +138,9 @@ public class SunshineRepository {
         mWeatherNetworkDataSource.startFetchWeatherService();
     }
 
+    public LiveData<List<WeatherEntry>> getCurrentWeatherForecasts() {
+        initializeData();
+        Date today = SunshineDateUtils.getNormalizedUtcDateForToday();
+        return mWeatherDao.getCurrentWeatherForecasts(today);
+    }
 }
