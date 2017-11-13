@@ -90,6 +90,11 @@ public class SunshineRepository {
         // performed, we have nothing to do in this method.
         if (mInitialized) return;
         mInitialized = true;
+
+        // This method call triggers Sunshine to create its task to synchronize weather data
+        // periodically.
+        mWeatherNetworkDataSource.scheduleRecurringFetchWeatherSync();
+
         mExecutors.diskIO().execute(() -> {
             if (isFetchNeeded()) {
                 startFetchWeatherService();
