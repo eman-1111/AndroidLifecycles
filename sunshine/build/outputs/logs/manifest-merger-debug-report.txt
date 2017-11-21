@@ -1,54 +1,98 @@
 -- Merging decision tree log ---
 manifest
 ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:17:1-70:12
+INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:17:1-70:12
+INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:17:1-70:12
+INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:17:1-70:12
+MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\7ea8083b631f4d2a64e261140ae27169\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.databinding:library:1.3.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\library-1.3.1.aar\77205db61fd8eef51e530f7d18112c89\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\preference-v7-26.0.1.aar\0e67b00eac285198914d0c2c3e2e90ac\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\7920bcce5dbecc8be235139b3760bed2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\1dc2e69ef2912d2472886ac40ae8f692\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0-beta1.aar\c18307370532a0cef8006b3549b8367b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.7.0.aar\a77a9bff45a5945bf706ee5a9aece75c\AndroidManifest.xml:17:1-42:12
+MERGED from [android.arch.persistence.room:runtime:1.0.0-alpha8] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0-alpha8.aar\0805208c2f9ebc0f9260760cf7b0266b\AndroidManifest.xml:17:1-26:12
+MERGED from [android.arch.lifecycle:extensions:1.0.0-alpha1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\extensions-1.0.0-alpha1.aar\81707409b1bd473b38d481b95153c7ff\AndroidManifest.xml:17:1-26:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0-alpha1.aar\fd8c0124a011dcb301125fb5f434ea5f\AndroidManifest.xml:17:1-34:12
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\d83e2d7c9ca6c13b86910b41e21d65f2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\15e1cfe2497b14b1db2bfb4476d67a4c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2c26522a0c57c76938ca80a8f1a6208a\AndroidManifest.xml:17:1-28:12
+MERGED from [android.arch.persistence.room:support-db-impl:1.0.0-alpha8] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-db-impl-1.0.0-alpha8.aar\33e8ebcb8f79ede5b5b8daf0b7acca19\AndroidManifest.xml:17:1-26:12
+MERGED from [android.arch.persistence.room:support-db:1.0.0-alpha8] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-db-1.0.0-alpha8.aar\e457d4ca73edd7d5c54b012c79030a24\AndroidManifest.xml:17:1-26:12
+MERGED from [android.arch.core:runtime:1.0.0-alpha8] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0-alpha8.aar\f40790c4082d3eddf8266bc5a23e2f95\AndroidManifest.xml:17:1-26:12
+MERGED from [android.arch.core:core:1.0.0-alpha1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\core-1.0.0-alpha1.aar\2d1798ae930ace44e4b1e17d84491471\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\f2d2b4a9d8293574937fa2e95e5fd49f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\85afc7cb0eb9baf814a638f541bac65c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\95a9fee7d7184473a63ac0ed446111e2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\3e2cdb2ae79f8fde0c4383649de4c236\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\25d33523b3595b5cbc62fa5ac7368dab\AndroidManifest.xml:17:1-31:12
+INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:17:1-70:12
+INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:17:1-70:12
+INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:17:1-70:12
 	package
 		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:19:5-43
 		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
 		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:17:1-70:12
+		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:17:1-70:12
 		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:18:5-63
-	android:versionCode
-		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
-		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:22:5-66
 	android:name
 		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:22:22-64
 application
 ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:24:5-69:19
-MERGED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.android\build-cache\6d1fed28d5e13d42e3ab9435f8ec8439f4bb396d\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Eman\.android\build-cache\c745b25754f0f0a6830ac51c95416f768ea73b20\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Eman\.android\build-cache\b914c77dc89075dde6c9ef596f3b3882d5ca75bf\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Eman\.android\build-cache\8c756a6c6c003713de1777af1c1eeca96b513a22\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Eman\.android\build-cache\e22a189b72b7debe21f9ce9513899e5b064f9ca4\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta1] C:\Users\Eman\.android\build-cache\7473c816d52ce6b72a3961a6bc4216027b7ad01d\output\AndroidManifest.xml:9:5-20
-MERGED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:26:5-40:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\3a8c625fab4c1035d5bd7d664421c6740957925d\output\AndroidManifest.xml:26:5-32:19
-MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Eman\.android\build-cache\95adf5c768d499fbbc99015810359e82e544bac1\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Eman\.android\build-cache\c2583e43db8a433f868eb8d42c19a0bbf7a7d687\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Eman\.android\build-cache\7b8cdd47bedc5d4399aeacb65f1aa8d292d1195f\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Eman\.android\build-cache\449eb6f42ba6afe5a8b921ed7ade18ba3e5fbca8\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Eman\.android\build-cache\acb9def087eff05130d88700f7810c1be15ac9d9\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Eman\.android\build-cache\0747e546477e63834696b2c5220a7a67ac64bfa3\output\AndroidManifest.xml:25:5-29:19
-	android:label
-		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:27:9-41
+MERGED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\preference-v7-26.0.1.aar\0e67b00eac285198914d0c2c3e2e90ac\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\preference-v7-26.0.1.aar\0e67b00eac285198914d0c2c3e2e90ac\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\7920bcce5dbecc8be235139b3760bed2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\7920bcce5dbecc8be235139b3760bed2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\1dc2e69ef2912d2472886ac40ae8f692\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\1dc2e69ef2912d2472886ac40ae8f692\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0-beta1.aar\c18307370532a0cef8006b3549b8367b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0-beta1.aar\c18307370532a0cef8006b3549b8367b\AndroidManifest.xml:9:5-20
+MERGED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.7.0.aar\a77a9bff45a5945bf706ee5a9aece75c\AndroidManifest.xml:26:5-40:19
+MERGED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.7.0.aar\a77a9bff45a5945bf706ee5a9aece75c\AndroidManifest.xml:26:5-40:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0-alpha1.aar\fd8c0124a011dcb301125fb5f434ea5f\AndroidManifest.xml:26:5-32:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0-alpha1.aar\fd8c0124a011dcb301125fb5f434ea5f\AndroidManifest.xml:26:5-32:19
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\d83e2d7c9ca6c13b86910b41e21d65f2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\d83e2d7c9ca6c13b86910b41e21d65f2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\15e1cfe2497b14b1db2bfb4476d67a4c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\15e1cfe2497b14b1db2bfb4476d67a4c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2c26522a0c57c76938ca80a8f1a6208a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2c26522a0c57c76938ca80a8f1a6208a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\f2d2b4a9d8293574937fa2e95e5fd49f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\f2d2b4a9d8293574937fa2e95e5fd49f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\85afc7cb0eb9baf814a638f541bac65c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\85afc7cb0eb9baf814a638f541bac65c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\95a9fee7d7184473a63ac0ed446111e2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\95a9fee7d7184473a63ac0ed446111e2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\3e2cdb2ae79f8fde0c4383649de4c236\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\3e2cdb2ae79f8fde0c4383649de4c236\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\25d33523b3595b5cbc62fa5ac7368dab\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\25d33523b3595b5cbc62fa5ac7368dab\AndroidManifest.xml:25:5-29:19
 	android:supportsRtl
 		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:28:9-35
-	android:allowBackup
-		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:27:9-41
 	android:icon
 		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:26:9-43
+	android:allowBackup
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:25:9-35
 	android:theme
 		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:29:9-40
 activity#com.example.android.sunshine.ui.detail.DetailActivity
 ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:32:9-38:20
-	android:label
-		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:34:13-45
 	android:parentActivityName
 		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:35:13-63
+	android:label
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:34:13-45
 	android:launchMode
 		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:36:13-43
 	android:theme
@@ -99,73 +143,111 @@ ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidMa
 		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml:65:25-81
 uses-sdk
 INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.android\build-cache\6d1fed28d5e13d42e3ab9435f8ec8439f4bb396d\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Eman\.android\build-cache\c745b25754f0f0a6830ac51c95416f768ea73b20\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Eman\.android\build-cache\b914c77dc89075dde6c9ef596f3b3882d5ca75bf\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Eman\.android\build-cache\8c756a6c6c003713de1777af1c1eeca96b513a22\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Eman\.android\build-cache\e22a189b72b7debe21f9ce9513899e5b064f9ca4\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta1] C:\Users\Eman\.android\build-cache\7473c816d52ce6b72a3961a6bc4216027b7ad01d\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:22:5-24:41
-MERGED from [android.arch.persistence.room:runtime:1.0.0-alpha8] C:\Users\Eman\.android\build-cache\8b4d946e3dc0bfbc746ddb73efb231c323e48206\output\AndroidManifest.xml:22:5-24:41
-MERGED from [android.arch.persistence.room:support-db-impl:1.0.0-alpha8] C:\Users\Eman\.android\build-cache\a64717ad1bffd2242d582dd43b65a6e6ad737fd6\output\AndroidManifest.xml:22:5-24:41
-MERGED from [android.arch.persistence.room:support-db:1.0.0-alpha8] C:\Users\Eman\.android\build-cache\91622cdde7bb81d7465d62b17032f9f9eb64876a\output\AndroidManifest.xml:22:5-24:41
-MERGED from [android.arch.core:runtime:1.0.0-alpha8] C:\Users\Eman\.android\build-cache\ceae8c3eef72fb15616f6372000509058a973714\output\AndroidManifest.xml:22:5-24:41
-MERGED from [android.arch.lifecycle:extensions:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\bc3131692158a7bb536cd330cd6f6a680cd97159\output\AndroidManifest.xml:22:5-24:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\3a8c625fab4c1035d5bd7d664421c6740957925d\output\AndroidManifest.xml:22:5-24:41
-MERGED from [android.arch.core:core:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\26dc6bdce00e3a78e48503bbca139041829ef57a\output\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\Eman\.android\build-cache\fecf81ebb49438288b656b880a954480c001bdbe\output\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.databinding:library:1.3.1] C:\Users\Eman\.android\build-cache\a1cfef4900bce2707ee224d835d37827f9ca2f8b\output\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Eman\.android\build-cache\95adf5c768d499fbbc99015810359e82e544bac1\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Eman\.android\build-cache\c2583e43db8a433f868eb8d42c19a0bbf7a7d687\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Eman\.android\build-cache\7b8cdd47bedc5d4399aeacb65f1aa8d292d1195f\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Eman\.android\build-cache\449eb6f42ba6afe5a8b921ed7ade18ba3e5fbca8\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Eman\.android\build-cache\acb9def087eff05130d88700f7810c1be15ac9d9\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Eman\.android\build-cache\0747e546477e63834696b2c5220a7a67ac64bfa3\output\AndroidManifest.xml:21:5-23:58
+INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\7ea8083b631f4d2a64e261140ae27169\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\7ea8083b631f4d2a64e261140ae27169\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.3.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\library-1.3.1.aar\77205db61fd8eef51e530f7d18112c89\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.3.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\library-1.3.1.aar\77205db61fd8eef51e530f7d18112c89\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\preference-v7-26.0.1.aar\0e67b00eac285198914d0c2c3e2e90ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\preference-v7-26.0.1.aar\0e67b00eac285198914d0c2c3e2e90ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\7920bcce5dbecc8be235139b3760bed2\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\7920bcce5dbecc8be235139b3760bed2\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\1dc2e69ef2912d2472886ac40ae8f692\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\1dc2e69ef2912d2472886ac40ae8f692\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0-beta1.aar\c18307370532a0cef8006b3549b8367b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0-beta1.aar\c18307370532a0cef8006b3549b8367b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.7.0.aar\a77a9bff45a5945bf706ee5a9aece75c\AndroidManifest.xml:22:5-24:41
+MERGED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.7.0.aar\a77a9bff45a5945bf706ee5a9aece75c\AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.persistence.room:runtime:1.0.0-alpha8] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0-alpha8.aar\0805208c2f9ebc0f9260760cf7b0266b\AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.persistence.room:runtime:1.0.0-alpha8] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0-alpha8.aar\0805208c2f9ebc0f9260760cf7b0266b\AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.lifecycle:extensions:1.0.0-alpha1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\extensions-1.0.0-alpha1.aar\81707409b1bd473b38d481b95153c7ff\AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.lifecycle:extensions:1.0.0-alpha1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\extensions-1.0.0-alpha1.aar\81707409b1bd473b38d481b95153c7ff\AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0-alpha1.aar\fd8c0124a011dcb301125fb5f434ea5f\AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0-alpha1.aar\fd8c0124a011dcb301125fb5f434ea5f\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\d83e2d7c9ca6c13b86910b41e21d65f2\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\d83e2d7c9ca6c13b86910b41e21d65f2\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\15e1cfe2497b14b1db2bfb4476d67a4c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\15e1cfe2497b14b1db2bfb4476d67a4c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2c26522a0c57c76938ca80a8f1a6208a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2c26522a0c57c76938ca80a8f1a6208a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:support-db-impl:1.0.0-alpha8] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-db-impl-1.0.0-alpha8.aar\33e8ebcb8f79ede5b5b8daf0b7acca19\AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.persistence.room:support-db-impl:1.0.0-alpha8] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-db-impl-1.0.0-alpha8.aar\33e8ebcb8f79ede5b5b8daf0b7acca19\AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.persistence.room:support-db:1.0.0-alpha8] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-db-1.0.0-alpha8.aar\e457d4ca73edd7d5c54b012c79030a24\AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.persistence.room:support-db:1.0.0-alpha8] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-db-1.0.0-alpha8.aar\e457d4ca73edd7d5c54b012c79030a24\AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.core:runtime:1.0.0-alpha8] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0-alpha8.aar\f40790c4082d3eddf8266bc5a23e2f95\AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.core:runtime:1.0.0-alpha8] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0-alpha8.aar\f40790c4082d3eddf8266bc5a23e2f95\AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.core:core:1.0.0-alpha1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\core-1.0.0-alpha1.aar\2d1798ae930ace44e4b1e17d84491471\AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.core:core:1.0.0-alpha1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\core-1.0.0-alpha1.aar\2d1798ae930ace44e4b1e17d84491471\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\f2d2b4a9d8293574937fa2e95e5fd49f\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\f2d2b4a9d8293574937fa2e95e5fd49f\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\85afc7cb0eb9baf814a638f541bac65c\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\85afc7cb0eb9baf814a638f541bac65c\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\95a9fee7d7184473a63ac0ed446111e2\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\95a9fee7d7184473a63ac0ed446111e2\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\3e2cdb2ae79f8fde0c4383649de4c236\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\3e2cdb2ae79f8fde0c4383649de4c236\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\25d33523b3595b5cbc62fa5ac7368dab\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\25d33523b3595b5cbc62fa5ac7368dab\AndroidManifest.xml:21:5-23:58
+INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Eman\.android\build-cache\c745b25754f0f0a6830ac51c95416f768ea73b20\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\7920bcce5dbecc8be235139b3760bed2\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
 		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
+		ADDED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
 		INJECTED from E:\android-architecture\AndroidLifecycles\sunshine\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.android\build-cache\6d1fed28d5e13d42e3ab9435f8ec8439f4bb396d\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Eman\.android\build-cache\c745b25754f0f0a6830ac51c95416f768ea73b20\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Eman\.android\build-cache\b914c77dc89075dde6c9ef596f3b3882d5ca75bf\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Eman\.android\build-cache\8c756a6c6c003713de1777af1c1eeca96b513a22\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Eman\.android\build-cache\e22a189b72b7debe21f9ce9513899e5b064f9ca4\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Eman\.android\build-cache\95adf5c768d499fbbc99015810359e82e544bac1\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Eman\.android\build-cache\c2583e43db8a433f868eb8d42c19a0bbf7a7d687\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Eman\.android\build-cache\7b8cdd47bedc5d4399aeacb65f1aa8d292d1195f\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Eman\.android\build-cache\449eb6f42ba6afe5a8b921ed7ade18ba3e5fbca8\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Eman\.android\build-cache\acb9def087eff05130d88700f7810c1be15ac9d9\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Eman\.android\build-cache\0747e546477e63834696b2c5220a7a67ac64bfa3\output\AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\preference-v7-26.0.1.aar\0e67b00eac285198914d0c2c3e2e90ac\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\7920bcce5dbecc8be235139b3760bed2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\7920bcce5dbecc8be235139b3760bed2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\1dc2e69ef2912d2472886ac40ae8f692\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\1dc2e69ef2912d2472886ac40ae8f692\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\d83e2d7c9ca6c13b86910b41e21d65f2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\d83e2d7c9ca6c13b86910b41e21d65f2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\15e1cfe2497b14b1db2bfb4476d67a4c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\15e1cfe2497b14b1db2bfb4476d67a4c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2c26522a0c57c76938ca80a8f1a6208a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2c26522a0c57c76938ca80a8f1a6208a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\f2d2b4a9d8293574937fa2e95e5fd49f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\f2d2b4a9d8293574937fa2e95e5fd49f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\85afc7cb0eb9baf814a638f541bac65c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\85afc7cb0eb9baf814a638f541bac65c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\95a9fee7d7184473a63ac0ed446111e2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\95a9fee7d7184473a63ac0ed446111e2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\3e2cdb2ae79f8fde0c4383649de4c236\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\3e2cdb2ae79f8fde0c4383649de4c236\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\25d33523b3595b5cbc62fa5ac7368dab\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\25d33523b3595b5cbc62fa5ac7368dab\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.android\build-cache\6d1fed28d5e13d42e3ab9435f8ec8439f4bb396d\output\AndroidManifest.xml:25:13-35
+		ADDED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\preference-v7-26.0.1.aar\0e67b00eac285198914d0c2c3e2e90ac\AndroidManifest.xml:25:13-35
 	android:name
-		ADDED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.android\build-cache\6d1fed28d5e13d42e3ab9435f8ec8439f4bb396d\output\AndroidManifest.xml:24:13-51
+		ADDED from [com.android.support:preference-v7:26.0.1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\preference-v7-26.0.1.aar\0e67b00eac285198914d0c2c3e2e90ac\AndroidManifest.xml:24:13-51
 service#com.firebase.jobdispatcher.GooglePlayReceiver
-ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:32:9-39:19
+ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.7.0.aar\a77a9bff45a5945bf706ee5a9aece75c\AndroidManifest.xml:32:9-39:19
 	android:exported
-		ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:34:13-36
+		ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.7.0.aar\a77a9bff45a5945bf706ee5a9aece75c\AndroidManifest.xml:34:13-36
 	android:permission
-		ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:35:13-93
+		ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.7.0.aar\a77a9bff45a5945bf706ee5a9aece75c\AndroidManifest.xml:35:13-93
 	android:name
-		ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:33:13-73
+		ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.7.0.aar\a77a9bff45a5945bf706ee5a9aece75c\AndroidManifest.xml:33:13-73
 intent-filter#com.google.android.gms.gcm.ACTION_TASK_READY
-ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:36:13-38:29
+ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.7.0.aar\a77a9bff45a5945bf706ee5a9aece75c\AndroidManifest.xml:36:13-38:29
 action#com.google.android.gms.gcm.ACTION_TASK_READY
-ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:37:17-87
+ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.7.0.aar\a77a9bff45a5945bf706ee5a9aece75c\AndroidManifest.xml:37:17-87
 	android:name
-		ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.android\build-cache\6c1804a6dafcb6b73cd0216bbdcae970406ebcb7\output\AndroidManifest.xml:37:25-84
+		ADDED from [com.firebase:firebase-jobdispatcher:0.7.0] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.7.0.aar\a77a9bff45a5945bf706ee5a9aece75c\AndroidManifest.xml:37:25-84
 provider#android.arch.lifecycle.LifecycleRuntimeTrojanProvider
-ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\3a8c625fab4c1035d5bd7d664421c6740957925d\output\AndroidManifest.xml:27:9-31:43
+ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0-alpha1.aar\fd8c0124a011dcb301125fb5f434ea5f\AndroidManifest.xml:27:9-31:43
 	android:authorities
-		ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\3a8c625fab4c1035d5bd7d664421c6740957925d\output\AndroidManifest.xml:29:13-68
+		ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0-alpha1.aar\fd8c0124a011dcb301125fb5f434ea5f\AndroidManifest.xml:29:13-68
 	android:multiprocess
-		ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\3a8c625fab4c1035d5bd7d664421c6740957925d\output\AndroidManifest.xml:31:13-40
+		ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0-alpha1.aar\fd8c0124a011dcb301125fb5f434ea5f\AndroidManifest.xml:31:13-40
 	android:exported
-		ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\3a8c625fab4c1035d5bd7d664421c6740957925d\output\AndroidManifest.xml:30:13-37
+		ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0-alpha1.aar\fd8c0124a011dcb301125fb5f434ea5f\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.android\build-cache\3a8c625fab4c1035d5bd7d664421c6740957925d\output\AndroidManifest.xml:28:13-81
+		ADDED from [android.arch.lifecycle:runtime:1.0.0-alpha1] C:\Users\Eman\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0-alpha1.aar\fd8c0124a011dcb301125fb5f434ea5f\AndroidManifest.xml:28:13-81

@@ -28,6 +28,10 @@
         "source": "C:\\Users\\Eman\\.android\\build-cache\\c745b25754f0f0a6830ac51c95416f768ea73b20\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\extra_weather_details.xml",
+        "source": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\src\\main\\res\\layout\\extra_weather_details.xml"
+    },
+    {
         "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\layout\\activity_detail.xml",
         "source": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\src\\main\\res\\layout\\activity_detail.xml"
     },
@@ -108,12 +112,20 @@
         "source": "C:\\Users\\Eman\\.android\\build-cache\\c745b25754f0f0a6830ac51c95416f768ea73b20\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_detail.xml",
+        "source": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\src\\main\\res\\layout\\activity_detail.xml"
+    },
+    {
         "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\layout\\preference_category.xml",
         "source": "C:\\Users\\Eman\\.android\\build-cache\\6d1fed28d5e13d42e3ab9435f8ec8439f4bb396d\\output\\res\\layout\\preference_category.xml"
     },
     {
         "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\Eman\\.android\\build-cache\\0747e546477e63834696b2c5220a7a67ac64bfa3\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\primary_weather_info.xml",
+        "source": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\src\\main\\res\\layout\\primary_weather_info.xml"
     },
     {
         "merged": "E:\\android-architecture\\AndroidLifecycles\\sunshine\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
