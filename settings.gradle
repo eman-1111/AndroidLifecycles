@@ -1,1 +1,1 @@
-include ':android_lifecycles', ':android_persistence', ':topekainstalled' , ':android_testing' , ':sunshine', ':android-topeka-start'
+include ':android_lifecycles', ':android_persistence', ':topekainstalled', ':instant' , ':android_testing' , ':sunshine', ':android-topeka-start'
