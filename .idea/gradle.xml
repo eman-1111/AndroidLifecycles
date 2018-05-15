@@ -8,10 +8,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/android-topeka-start" />
             <option value="$PROJECT_DIR$/android_lifecycles" />
             <option value="$PROJECT_DIR$/android_persistence" />
             <option value="$PROJECT_DIR$/android_testing" />
             <option value="$PROJECT_DIR$/sunshine" />
+            <option value="$PROJECT_DIR$/topekainstalled" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

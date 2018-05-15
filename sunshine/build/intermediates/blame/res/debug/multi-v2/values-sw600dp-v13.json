@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\android_example\\GoogleCodelabs\\sunshine\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Eman\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\669ad739f4ae892dc43b16c9ae5d690a\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "D:\\android_example\\GoogleCodelabs\\sunshine\\src\\main\\res\\values-sw600dp\\dimens.xml",
+                    "from": {
+                        "startLines": "20,22,21",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "715,854,780",
+                        "endColumns": "63,59,72",
+                        "endOffsets": "774,909,848"
+                    },
+                    "to": {
+                        "startLines": "10,11,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "611,675,735",
+                        "endColumns": "63,59,72",
+                        "endOffsets": "670,730,803"
+                    }
+                }
+            ]
+        }
+    ]
+}
